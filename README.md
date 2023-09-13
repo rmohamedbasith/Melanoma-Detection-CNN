@@ -37,16 +37,16 @@ To build a CNN based model which can accurately detect melanoma. Melanoma is a t
 
 
 ## Conclusions
-- Training Performance: The training loss is relatively low at 0.2303, indicating that the model is fitting the training data quite well. This suggests that the model is learning the patterns within the training data with a high degree of accuracy, achieving a training accuracy of 91.19%.
 
-- Validation Performance: While the validation loss is higher than the training loss, which is expected, it remains relatively low at 0.4360. This indicates that the model is performing well on data it hasn't seen during training. The validation accuracy of 87.01% reflects the model's ability to generalize to new, unseen data.
+- **Training Performance:** The training loss is relatively low at 0.2564, indicating that the model is fitting the training data quite well. This suggests that the model is learning the patterns within the training data with a high degree of accuracy, achieving a training accuracy of 89%.
 
-- Generalization: The relatively small gap between the training accuracy (91.19%) and validation accuracy (87.01%) suggests that the model is not overfitting the training data. It demonstrates a good balance between learning from the training data and generalizing to new data.
+- **Validation Performance:** While the validation loss is higher than the training loss, which is expected, it remains relatively low at 0.5129. This indicates that the model is performing well on data it hasn't seen during training. The validation accuracy of 86% reflects the model's ability to generalize to new, unseen data.
 
-- Model Capability: These results imply that the model has been well-trained and is proficient in capturing the underlying patterns in the data. It has the potential for practical applications with a high level of accuracy in both training and validation.
+- **Generalization:** The relatively small gap between the training accuracy (89%) and validation accuracy (86%) suggests that the model is not overfitting the training data. It demonstrates a good balance between learning from the training data and generalizing to new data.
+
+- **Model Capability:** These results imply that the model has been well-trained and is proficient in capturing the underlying patterns in the data. It has the potential for practical applications with a high level of accuracy in both training and validation.
 
 Overall, the model appears to be well-trained and exhibits strong performance on both the training and validation datasets, indicating its potential for effective real-world use.
-
 
 ## Technologies Used
 - tensorflow==2.12.0
